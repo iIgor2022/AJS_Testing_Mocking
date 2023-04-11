@@ -1,0 +1,32 @@
+{
+  "name": "ajs_testing_mocking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+	"lint": "eslint ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iIgor2022/AJS_Testing_Mocking.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iIgor2022/AJS_Testing_Mocking/issues"
+  },
+  "homepage": "https://github.com/iIgor2022/AJS_Testing_Mocking#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-jest": "^29.5.0",
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "core-js": "^3.30.0"
+  }
+}
